@@ -2,15 +2,20 @@
   "name": "devportfolio",
   "type": "module",
   "version": "0.0.1",
+  "homepage": "https://navinpatel76.github.io/NavinPatelPortfolio",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "gh-pages -d dist",
     "astro": "astro"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.12.3",
     "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
